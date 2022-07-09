@@ -2,6 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ThomasAgu.github.io/react-gh-pages",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
