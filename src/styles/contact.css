@@ -1,0 +1,75 @@
+#contacto{
+    background-color: var(--white);
+
+}
+
+#contacto-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20% 0% 5% 0%;
+    background-color: var(--white);
+}
+
+
+
+
+#contacto-title{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    margin: auto;
+    padding-top: 10%;
+    text-align: end;
+    width: 75%;
+}
+
+.contacto-item{
+    border: none;
+    background-color: var(--white);
+    width: fit-content;
+    margin: auto;
+}
+
+.contact-icon{
+    color: var(--black);
+    font-size: 500%;
+    background-color: var(--white);
+    /* transition */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.contact-icon:hover{
+    color: var(--orange);
+    font-size: 700%;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--orange);
+}
+
+
+/* cellphone media query */
+@media (max-width: 800px) and (min-width:400px) {
+    #contacto-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-icon{
+        color: var(--black);
+        font-size: 400%;
+        background-color: var(--white);
+        margin-top: 20%;        
+    }
+    .contact-icon:hover{
+        color: var(--orange);
+        font-size: 475%;
+        box-sizing: border-box;
+        border-bottom: 1px solid var(--orange);
+    }
+}
+

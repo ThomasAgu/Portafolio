@@ -1,0 +1,15 @@
+#footer-div{
+    text-align: center;
+    background-color: var(--black);
+    margin: 20% 5% 0%;
+    padding: 1% 0% 0%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#footer-content{
+    padding-bottom: 1%;
+}

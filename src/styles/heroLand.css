@@ -1,0 +1,47 @@
+#inicio{
+    background-image: url('../img/heropage.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: inherit;
+}
+
+#my-identity{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    justify-content:  space-between;
+}
+#presentation{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--black);  
+    padding-left: 2%;
+}
+
+#presentation-name{
+    font-size: 500%;
+}
+
+#presentation-work{
+    font-size: 150%;
+    margin-top: 10%;   
+}
+#profile-img-div{
+    position: relative;
+    padding-left: 16%;
+}
+#profile-img{
+    width: 60%;
+    border-radius: 50%;
+    border: 5px solid var(--green);    
+}
+
+@media (max-width: 800px) and (min-width:400px) {
+    #my-identity{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content:  space-around;
+    }
+
+}

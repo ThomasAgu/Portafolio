@@ -1,0 +1,121 @@
+
+#projectos{
+    background-color: var(--white);
+    padding-top: 5%;
+}
+#anclaprojectos{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    margin: auto;
+    text-align: end;
+    width: 75%;
+}
+
+#project-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: auto;
+    background-color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+    color: var(--black);
+    padding-top: 5%;
+}
+
+.card-project{
+    border: none;
+    border-radius: 12px;
+    padding: 2%;
+    margin: 0% 5% 3%;
+    width: 75%;
+    height: auto;
+}
+.card-img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+}
+.card-project-mainContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--black);
+}
+.card-typeOfProject{
+    color: var(--orange);
+    margin-bottom: 2%;
+}
+
+.card-description{
+    text-align: start;
+    padding: 5% 0% 5% 2%;
+}
+
+.project-tecnologies{
+    background-color: var(--orange);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.project-icon{
+    color: var(--white);
+    padding: 5%;
+}
+
+
+.project-title-div{
+    background-image: url('../img/computer.jpg') ;
+    background-position: 1%;
+    width: 100%;
+    height: 6em;
+}
+
+.project-title{
+    text-align: center;
+    color: var(--white);
+    padding-top: 4%;
+}
+
+.project-links{
+    color: var(--white);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 2% 5%;
+}
+
+.project-links-icon{
+    margin-top: 2%;
+}
+
+.project-description{
+    box-sizing: border-box;
+}
+
+.project-tecnhologies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.project-icon{
+    color: var(--white);
+    margin: 0% 2%;
+    font-size: 150%;
+}
+
+
+/* cellphone media query */
+@media (max-width: 800px) and (min-width:400px) {
+    #project-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--white);
+        font-family: 'Quicksand', sans-serif;
+        color: var(--black);
+        padding-top: 5%;
+    }
+}       

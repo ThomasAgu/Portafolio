@@ -1,0 +1,59 @@
+#tecnologias{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    margin: auto;
+}
+
+#anclaTecnologies{
+    width: 75%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+#tecnologiesList{
+    display: grid;
+    margin: 0% 15%;
+    padding-top: 5%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    align-content: center;
+    
+    /* seguir aca */
+}
+
+.tecnology{
+    /* border: 1px solid var(--orange); */
+    padding: 4%;
+    margin-top: 50%;
+    border-radius: 12px;
+    color: var(--green);
+    font-size: 200%;
+}
+
+/* cellphone media query */
+@media (max-width: 800px) and (min-width:400px) {
+    #tecnologias{
+        background-color: var(--white);
+    }
+    #tecnologiesList{
+        display: grid;
+        margin: 0% 15%;
+        padding-top: 5%;
+        grid-template-columns: 33% 33% 33%;
+        justify-items: center;
+        align-content: center;
+        
+        /* seguir aca */
+    }
+
+    .tecnology{
+        /* border: 1px solid var(--orange); */
+        padding: 4%;
+        margin-top: 40%;
+        border-radius: 12px;
+        color: var(--green);
+        font-size: 200%;
+    }
+    
+}
