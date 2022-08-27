@@ -1,5 +1,5 @@
 import React from 'react'
-import Proyecto from './proyecto'
+import Proyecto from './Proyecto'
 import Img from '../img/heropageb.jpg'
 
 /* icons */

@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 /* Iconst */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-/* react */
 /* Style */
 import '../styles/nav.css'
 

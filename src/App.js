@@ -1,13 +1,12 @@
 import './App.css';
 
-import HeroLand from './components/heroLand';
-import Footer from './components/footer';
-import Contacto from './components/contacto';
-import PojectList from './components/projectList'
-import ContenidoInicial from './components/contenidoInicial';
-import TecnologiesList from './components/tecnologiesList';
-import NavBar from './components/navBar';
-import NavbarResponsive from './components/navbarResponsive';
+import HeroLand from './components/HeroLand';
+import Footer from './components/Footer';
+import Contacto from './components/Contacto';
+import PojectList from './components/ProjectList'
+import ContenidoInicial from './components/ContenidoInicial';
+import TecnologiesList from './components/TecnologiesList';
+import NavBar from './components/NavBar';
 import React, { useEffect, useState } from 'react';
 
 /* AOS */

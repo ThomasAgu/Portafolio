@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Sobremi from './sobremi'
-import Curriculum from './curriculum'
+import Sobremi from './Sobremi'
+import Curriculum from './Curriculum'
 
 /* style */
 import '../styles/aboutme&cv.css'

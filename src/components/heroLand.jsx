@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from './navBar'
 
 /* images */
 import Img from '../img/twimg.jpg'

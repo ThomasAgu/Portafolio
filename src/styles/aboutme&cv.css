@@ -32,7 +32,7 @@
     font-size: 125%;
 }
 
-@media (max-width: 800px) and (min-width:400px) {
+@media screen and (max-width: 800px) {
     #main-content{
         display: flex;
         flex-direction: column;

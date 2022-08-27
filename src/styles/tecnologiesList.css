@@ -32,7 +32,7 @@
 }
 
 /* cellphone media query */
-@media (max-width: 800px) and (min-width:400px) {
+@media screen and (max-width: 800px) {
     #tecnologias{
         background-color: var(--white);
     }

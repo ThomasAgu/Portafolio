@@ -51,7 +51,7 @@
 
 
 /* cellphone media query */
-@media (max-width: 800px) and (min-width:400px) {
+@media screen and (max-width: 800px) {
     #contacto-flex{
         display: flex;
         flex-direction: column;
