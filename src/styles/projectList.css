@@ -29,12 +29,14 @@
     padding: 2%;
     margin: 0% 5% 3%;
     width: 75%;
-    height: auto;
+    position: relative;
 }
 .card-img{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    width: 100%;
+    width: 300px;
+    height: 15vh;
+
 }
 .card-project-mainContent{
     display: flex;
@@ -50,6 +52,7 @@
 .card-description{
     text-align: start;
     padding: 5% 0% 5% 2%;
+    height: 10vh;
 }
 
 .project-tecnologies{
@@ -90,6 +93,7 @@
 
 .project-description{
     box-sizing: border-box;
+    
 }
 
 .project-tecnhologies{
@@ -97,6 +101,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    
 }
 
 .project-icon{

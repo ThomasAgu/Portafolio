@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import {faUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 
-import Img from '../img/computer.jpg'
-import todoImg from '../img/todoImg.jpg'
 
 
 /* provisorio la imagen */
@@ -24,7 +22,7 @@ const proyecto = ({nombre,img, type, descripcion, tecnologias, link}) => {
   
   return (
     <div className='card-project' data-aos="flip-up" data-aos-duration="1000">  
-      <div ><img src={todoImg} alt="" className='card-img' /></div>
+      <div ><img src={img} alt="" className='card-img' /></div>
       <div className='card-project-mainContent'>
         <h4 className='card-typeOfProject' style={{color: defineColor()}}>{type}</h4>
         <h2 className='card-name'>{nombre}</h2>
