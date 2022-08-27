@@ -30,7 +30,7 @@ const proyecto = ({nombre,img, type, descripcion, tecnologias, link}) => {
         <h2 className='card-name'>{nombre}</h2>
         <p className='card-description'>{descripcion}</p>
       </div>
-      <a href={link}>Project here!</a>
+      <a className="projectLink"  onClick={() => window.open(link)} style={{color: defineColor()}}>Project here!</a>
 
       <div className='project-tecnologies' style={{backgroundColor: defineColor()}}>
       {tecnologias.map((el) => <FontAwesomeIcon icon={el} className="project-icon"/>)}

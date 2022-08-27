@@ -105,6 +105,11 @@
     font-size: 150%;
 }
 
+.projectLink{
+    text-align: center;
+    display: block;
+    margin-bottom: 1rem;
+}
 
 /* cellphone media query */
 @media screen and (max-width: 800px) {
