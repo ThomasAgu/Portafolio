@@ -2,9 +2,7 @@ import React from 'react'
 import Proyecto from './Proyecto'
 import Img from '../img/heropageb.jpg'
 
-//project imgs
-import todoImg from '../img/todoImg.jpg'
-import tempImg from '../img/temperaturaApp.jpg'
+//project imgs'
 import tennis from '../img/tennis.png'
 import cartas from '../img/cartas.png'
 import reto1 from '../img/reto1.png'
