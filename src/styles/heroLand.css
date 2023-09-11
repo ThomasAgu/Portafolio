@@ -31,7 +31,8 @@
     padding-left: 16%;
 }
 #profile-img{
-    width: 60%;
+    width: 25vh;
+    height: 25vh;
     border-radius: 50%;
     border: 5px solid var(--green);    
 }
